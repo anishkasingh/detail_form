@@ -1,0 +1,8 @@
+<html xmlns:t = "http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+<body>
+<h3>Choose...</h3>
+    <t:pagelink t:page="login"><button>Login</button></t:pagelink>
+    <br/>
+    <t:pagelink t:page="register"><button>Register</button></t:pagelink>
+</body>
+</html>
