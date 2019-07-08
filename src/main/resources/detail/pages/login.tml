@@ -1,11 +1,14 @@
 <html xmlns:t = "http://tapestry.apache.org/schema/tapestry_5_4.xsd">
 <body>
+<br/>
 <h3> WELCOME HERE </h3>
 
 <t:form t:id="loginForm">
+
     Login: <t:textfield t:id = "email" />
 
-    Password:  <t:passwordfield t:id = "password" />
+
+Password:  <t:passwordfield t:id = "password" />
     <t:submit t:id = "submit" value = "submit"/>
 </t:form>
 </body>

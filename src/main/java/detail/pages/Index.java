@@ -9,7 +9,7 @@ public class Index {
         @Property
         private boolean check1;
 
-        @Property
-        private boolean check2;
+    @Property
+    private boolean check2;
 
-    }
+}

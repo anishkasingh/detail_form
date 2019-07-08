@@ -1,0 +1,28 @@
+
+<html xmlns:t = "http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+
+
+<head>
+    <h3>WELCOME AGAIN</h3></br>
+    <h3>ADD THE NAME EMAIL AND PASSWORD</h3>
+</head>
+    <tr>
+        <thead>
+            <td>NAME</td>
+            <td>EMAIL</td>
+            <td>PASSWORD</td>
+        </thead>
+        <tbody>
+            <tr t:type="loop" t:source="employee" t:value="item">
+                <td>${item.name}</td>
+                <td>${item.email}</td>
+                <td>${item.password}</td>
+            </tr>
+        </tbody>
+        <t:submit value="SAVE"/>
+        <t:submit value="REFRESH"/>
+        <t:pagelink page="Display"></t:pagelink>
+        <t:eventlink event="REFRESH">REFRESH</t:eventlink>
+        </tr>
+
+</html>

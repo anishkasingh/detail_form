@@ -1,0 +1,12 @@
+<html xmlns:t = "http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+    <h3>WRITE THE ITEM  TO BE DELETED</h3>
+    <tr>
+        <thead>
+        <td>NAME</td>
+        <td>EMAIL</td>
+        <td>PASSWORD</td>
+        </thead>
+    </tr>
+    <t:submit value="SAVE">SAVE</t:submit>
+
+</html>

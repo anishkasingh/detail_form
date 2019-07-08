@@ -1,0 +1,20 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+    <body>
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <th>Name</th>-->
+<!--                <th>Email</th>-->
+<!--                <th>Password</th>-->
+<!--            </tr>-->
+<!--            <tr t:type="loop" source="employee" value="item">-->
+<!--                <td>${item.name}</td>-->
+<!--                <td>${item.email}</td>-->
+<!--                <td>${item.password}</td>-->
+<!--            </tr>-->
+<!--        </table>-->
+
+                <t:pagelink page="Add" >Adding elemets in the list</t:pagelink>
+                    <t:pagelink page="Delete">Deleting elements from the list</t:pagelink>
+
+    </body>
+</html>

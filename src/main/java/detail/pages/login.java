@@ -3,7 +3,14 @@ import org.apache.tapestry5.annotations.*;
 import org.apache.tapestry5.corelib.components.Form;
 import org.apache.tapestry5.corelib.components.PasswordField;
 import org.apache.tapestry5.corelib.components.TextField;
+import org.apache.tapestry5.ioc.annotations.Inject;
+import  java.util.*;
+
+
 public class login {
+    @InjectPage
+    private Display display;
+
     @Property
     private String email;
 
@@ -23,13 +30,9 @@ public class login {
         if(this.email==null || this.password==null){
             form.recordError(eF,"Please enter any value");
         }
-        else if(!(this.email.equalsIgnoreCase("abc.com") && this.password.equals("xyz")))
-        {
-            form.recordError(eF,"SORRY");
-        }
     }
-
     Object onSuccess() {
-        return this;
+
+        return display;
     }
 }

@@ -1,12 +1,13 @@
 <html xmlns:t = "http://tapestry.apache.org/schema/tapestry_5_4.xsd">
 <body>
-<h3> Enter details </h3>
+<h3> ENTER COMMENTS </h3>
 
 <t:form t:id="registerForm">
-    email: <t:textfield t:id = "email" />
+    FEEDBACK: <t:textfield t:id = "feedback" />
 
-    Password:  <t:passwordfield t:id = "password" />
-    <t:submit t:id = "submit" value = "new_addition"/>
+
+    <t:submit t:id = "submit" value = "THANKYOU"/>
+    <t:pagelink page="Index">index</t:pagelink>
 </t:form>
 </body>
 </html>
